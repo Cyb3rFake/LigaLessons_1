@@ -2,7 +2,7 @@ package lesson_2.homework;
 
 public class Tasks {
     public static void main(String[] args) {
-        task_2();
+        task_3();
     }
 
     /**
@@ -61,13 +61,17 @@ public class Tasks {
      * чтобы в консоли было выведено значение: 102428338.
      * Запрещается что-либо изменять или менять местами.
      */
+
+    // || (ИЛИ)
+    // |
+    // &&
     public static void task_3() {
         for (int i = 0; i < 4; i++) {
-//            if (compare(i, ???) ??? decreaseAndCompare(i, ???) ??? incrementAndCompare(i, ???)) {
-//                System.out.print("4");
-//            } else if (decreaseAndCompare(???, i) ??? incrementAndCompare(???, i) ??? compare(???, i)) {
-//                System.out.print("8");
-//            }
+            if (compare(i,1) || decreaseAndCompare(i, 1) | incrementAndCompare(i, 1)) {
+                System.out.print("4");
+            } else if (decreaseAndCompare(4, i) && incrementAndCompare(3, i) & compare(1, i)) {
+                System.out.print("8");
+            }
         }
 
     }
