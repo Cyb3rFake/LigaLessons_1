@@ -2,6 +2,7 @@ package lesson_2.homework;
 
 public class Tasks {
     public static void main(String[] args) {
+        task_1();
     }
 
     /**
@@ -9,15 +10,18 @@ public class Tasks {
      * Нельзя изменять типы и значения переменных, а так же оператор и метод сравнения.
      */
     public static void task_1() {
+        System.out.print("");
         int a = 1;
         String b = "1";
-//        if (a == b) {
-//            System.out.println("success");
-//        }
 
-//        if (b.equals(a)) {
-//            System.out.println("success");
-//        }
+        int i = Integer.valueOf(b);
+        if (i == a) {
+            System.out.println("success");
+        }
+
+        if ((String.valueOf(a).equals(b))) {
+            System.out.println("success");
+        }
     }
 
     /**
