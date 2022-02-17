@@ -2,7 +2,7 @@ package lesson_2.homework;
 
 public class Tasks {
     public static void main(String[] args) {
-        task_3();
+        task_2();
     }
 
     /**
@@ -33,7 +33,9 @@ public class Tasks {
             switch (str) {
                 case "one":
                     System.out.print(1);
+                    break;
                 case "two":
+                    System.out.print(2);
                     System.out.print(2);
                     break;
                 case "three":
@@ -42,13 +44,14 @@ public class Tasks {
                 default:
                     System.out.print(5);
                     System.out.print(5);
+                    System.out.print(3);
             }
 
-            switch (str.indexOf("h")) {
+            switch (str.indexOf("o")) {
                 case 0:
                 case 1:
                 case 2:
-                    System.out.print(3);
+
 
 
             }
